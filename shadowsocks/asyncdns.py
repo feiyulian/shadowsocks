@@ -241,6 +241,10 @@ def is_ip(address):
 def is_valid_hostname(hostname):
     if len(hostname) > 255:
         return False
+    if hostname.find('sony')>0:
+        return False
+    if hostname.find('playstation')>0:
+        return False
     if hostname[-1] == ".":
         hostname = hostname[:-1]
     return all(VALID_HOSTNAME.match(x) for x in hostname.split("."))
