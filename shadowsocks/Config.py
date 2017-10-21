@@ -2,7 +2,7 @@
 MYSQL_HOST = ''
 MYSQL_PORT = 3306
 MYSQL_USER = 'shadowsocks'
-MYSQL_PASS = 'ss'
+MYSQL_PASS = ''
 MYSQL_DB = 'shadowsocks'
 
 MANAGE_PASS = '322tty'
