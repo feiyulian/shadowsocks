@@ -1,11 +1,11 @@
 #Config
-MYSQL_HOST = 'mdss.mengsky.net'
+MYSQL_HOST = ''
 MYSQL_PORT = 3306
-MYSQL_USER = 'ss'
+MYSQL_USER = 'shadowsocks'
 MYSQL_PASS = 'ss'
 MYSQL_DB = 'shadowsocks'
 
-MANAGE_PASS = 'ss233333333'
+MANAGE_PASS = '322tty'
 #if you want manage in other server you should set this value to global ip
 MANAGE_BIND_IP = '127.0.0.1'
 #make sure this port is idle
